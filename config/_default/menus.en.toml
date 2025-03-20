@@ -1,0 +1,34 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Events"
+  pageRef = "/events"
+  weight = 15
+
+[[main]]
+  name = "Projects"
+  pageRef = "/achievements"
+  weight = 20
+
+[[main]]
+  name = "Committee"
+  pageRef = "/members"
+  weight = 25
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 35
+
+[[main]]
+  name = "Donate"
+  pageRef = "/contact"
+  weight = 40

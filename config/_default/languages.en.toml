@@ -1,0 +1,31 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Swami Vivekanad Seva Pratishthan"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "logo/svsp_logo.png"
+  # secondaryLogo = "logo/png/White_logo-no_background_cropped.png"
+  description = "Swami Vivekanad Seva Pratishthan Education Trust's Gangamma Chikumbimath Orphanage is Transforming lives of orphaned and underprivileged children in Belagavi. Explore our website to learn about our children's homes, adoption services, special needs care, and how you can contribute."
+  copyright = "© Copyright { year }, All Rights Reserved | Swami Vivekanad Seva Pratishthan"
+
+[params.author]
+  name = "Swami Vivekanad Seva Pratishthan"
+  image = "logo/svsp_logo.png"
+  headline = "Building a Future filled with Hopes and Possibilities"
+  bio = "Swami Vivekanad Seva Pratishthan Education Trust's Gangamma Chikumbimath Orphanage:  Transforming lives of orphaned and underprivileged children in Belagavi. Explore our website to learn about our children's homes, adoption services, special needs care, and how you can contribute."
+  links = [
+    { email = "mailto:svspbelagavi@gmail.com" },
+    { facebook = "https://www.facebook.com/profile.php?id=100079093874907"},
+    { github = "https://github.com/svspbelagavi" },
+    { instagram = "https://www.instagram.com/svspbelagavi/" },
+    { linkedin = "https://www.linkedin.com/in/svspbelagavi/" },
+    { x-twitter = "https://twitter.com/svspbelagavi" },
+    { youtube = "https://www.youtube.com/@svspbelagavi" }
+  ]
+
+  
