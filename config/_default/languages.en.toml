@@ -10,14 +10,14 @@ title = "Swami Vivekanad Seva Pratishthan"
   dateFormat = "2 January 2006"
   logo = "logo/svsp_logo.png"
   # secondaryLogo = "logo/png/White_logo-no_background_cropped.png"
-  description = "Swami Vivekanad Seva Pratishthan Education Trust's Gangamma Chikumbimath Orphanage is Transforming lives of orphaned and underprivileged children in Belagavi. Explore our website to learn about our children's homes, adoption services, special needs care, and how you can contribute."
+  description = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened for SEO
   copyright = "© Copyright { year }, All Rights Reserved | Swami Vivekanad Seva Pratishthan"
 
 [params.author]
   name = "Swami Vivekanad Seva Pratishthan"
   image = "logo/svsp_logo.png"
   headline = "Building a Future filled with Hopes and Possibilities"
-  bio = "Swami Vivekanad Seva Pratishthan Education Trust's Gangamma Chikumbimath Orphanage:  Transforming lives of orphaned and underprivileged children in Belagavi. Explore our website to learn about our children's homes, adoption services, special needs care, and how you can contribute."
+  bio = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened and consistent
   links = [
     { email = "mailto:svspbelagavi@gmail.com" },
     { facebook = "https://www.facebook.com/profile.php?id=100079093874907"},
@@ -27,5 +27,3 @@ title = "Swami Vivekanad Seva Pratishthan"
     { x-twitter = "https://twitter.com/svspbelagavi" },
     { youtube = "https://www.youtube.com/@svspbelagavi" }
   ]
-
-  
