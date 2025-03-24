@@ -10,12 +10,12 @@
 
 [[main]]
   name = "Projects"
-  pageRef = "/achievements"
+  pageRef = "/projects"
   weight = 20
 
 [[main]]
   name = "Committee"
-  pageRef = "/members"
+  pageRef = "/committee"
   weight = 25
 
 [[main]]

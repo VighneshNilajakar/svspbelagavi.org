@@ -1,0 +1,36 @@
+/* Style for the contact details container */
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for each individual contact item */
+  .contact-item {
+    flex: 1 1 300px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item div{
+      padding-left: 10px;
+  }
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 768px) {
+    .contact-details {
+      flex-direction: column;
+    }
+  }
+
+  /* Style for the bank details container */
+.bank-details {
+  margin-bottom: 1rem; /* Add space below the details */
+}
+
+/* Style for each individual detail item */
+.detail-item {
+  margin-bottom: 0.5rem; /* Add space between items */
+}

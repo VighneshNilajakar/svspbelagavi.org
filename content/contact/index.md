@@ -1,29 +1,43 @@
 ---
 title: "Contact Us"
-description: "This page is an Contact Us Page"
-showHero: true
-heroStyle: thumbAndBackground
-showDate: false
-showAuthor: false
-showViews: false
-showLikes: false
-showWordCount : false
-showReadingTime : false
-showZenMode : false
+description: "Get in touch with Swami Vivekanand Seva Pratishthan (SVSP) in Belagavi. We welcome your inquiries and feedback."
 ---
-{{< lead >}}
-Feel free to reach out with any questions, suggestions, or collaboration opportunities. Your feedback is valuable to us as we strive to improve and grow our community. We look forward to connecting with you! 🚀✨
-{{< /lead >}}
-<hr>
-<form action="https://formspree.io/f/mnqenkwy" method="POST" style="max-width: 100%; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); color: #333;">
-  <label style="display: block; margin-bottom: 10px;">
-    <span style="font-weight: bold;">Your email:</span><br>
-    <input type="email" name="email" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
-  </label>
-  <label style="display: block; margin-bottom: 10px;">
-    <span style="font-weight: bold;">Your message:</span><br>
-    <textarea name="message" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" rows="6"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Send</button>
-</form>
+
+## Get in Touch
+
+<p style="margin-bottom: 2rem; text-align: justify;">We'd love to hear from you! Whether you have questions about our programs, want to volunteer, or are interested in supporting our mission, please don't hesitate to reach out.</p>
+
+<div class="contact-details">
+
+  <div class="contact-item">
+    <i class="fas fa-map-marker-alt fa-2x" style="color: #e74c3c;"></i>
+    <div>
+        <strong>Address:</strong><br>
+        Shri. Shivanand.B.Kalyanshetti,<br>
+        "Matruchaya" Near Nutan Bal Mandir,<br>
+        Ram Nagar, Belagavi-590016
+    </div>
+  </div>
+
+  <div class="contact-item">
+    <i class="fas fa-phone fa-2x" style="color: #e74c3c;"></i>
+    <div>
+        <strong>Phone:</strong><br>
+        +91 9448465259
+    </div>
+  </div>
+
+  <div class="contact-item">
+    <i class="fas fa-envelope fa-2x" style="color: #e74c3c;"></i>
+    <div>
+        <strong>Email:</strong><br>
+        <a href="mailto:svspbelagavi@gmail.com" style="color: #3498db; text-decoration: none;">svspbelagavi@gmail.com</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Google Maps Embed -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4129.127379577741!2d74.52442577295585!3d15.849987622158675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f797c1545%3A0x8f59b465b97f655c!2sShivanand%20Kalyanshetti!5e0!3m2!1sen!2sin!4v1703828296442!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---

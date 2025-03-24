@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/members/dgkulkarni/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/sureshmashyal/</loc>
+    <loc>http://localhost:1313/committee/dgkulkarni/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,24 +28,6 @@
   <url>
     <loc>http://localhost:1313/events/startup_spark/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/achievements/</loc>
-    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/achievements/betca/</loc>
-    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/achievements/hackthefuture2024/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -83,7 +60,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/bhavanikulkarni/</loc>
+    <loc>http://localhost:1313/committee/bhavanikulkarni/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -93,7 +70,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/chandrasenbhosle/</loc>
+    <loc>http://localhost:1313/committee/chandrasenbhosle/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -103,57 +80,32 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/shubhabaravani/</loc>
+    <loc>http://localhost:1313/donate/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/kushalsuryawanshi/</loc>
+    <loc>http://localhost:1313/committee/kushalsuryawanshi/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/</loc>
+    <loc>http://localhost:1313/committee/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/nikitavanjeri/</loc>
+    <loc>http://localhost:1313/committee/nikitavanjeri/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/members/sanjivanipawar/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/shreyashkulkarni/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/sonalitakawade/</loc>
+    <loc>http://localhost:1313/committee/sanjivanipawar/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/varshalohar/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/vighneshnilajakar/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/members/vinayakkolavankar/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
