@@ -1,65 +1,72 @@
-colorScheme = "slate"
+colorScheme = "fire"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
-mainSections = [""] # Changed to an empty array. We'll define content structure explicitly.
+replyByEmail = false
+mainSections = ["events"]
+showViews = true
+showLikes = true
 robots = "all"
 disableImageZoom = false
 disableImageOptimization = false
-disableTextInHeader = false
-defaultBackgroundImage = "/img/background.jpg"  # Commented out.
-defaultFeaturedImage = "/img/featured.jpg"  # Commented out.
+disableTextInHeader = true
+defaultBackgroundImage = "/img/background1.jpg"
+defaultFeaturedImage = "/img/featured.jpg"
 highlightCurrentMenuArea = true
-smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOC = false
+# smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "fixed"  # Changed to "basic".  Experiment with "fixed" later.
+  layout = "fixed-fill-blur"
 
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = false # From config.toml
-  showAppearanceSwitcher = false  # Disabled for now.
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
-  layout = "bavkground"  # Consistent with config.toml.
-  homepageImage = "/img/background.jpg"  # Commented out. We'll set this in content/_index.md.
+  layout = "background"
+  homepageImage = "/img/background1.jpg"
   showRecent = false
-  showRecentItems = 10
-  showMoreLink = false # consistant
-  showMoreLinkDest = "blog"
-  cardView = false  # Disabled.
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/donate"
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true
 
 [article]
   showDate = true
-  showViews = false  # Disabled.
-  showLikes = false  # Disabled.
+  showViews = true 
+  showLikes = true
+  showDateOnlyInArticle = true
   showDateUpdated = false
   showAuthor = false
+  showAuthorBottom = false
   showHero = true
   heroStyle = "thumbAndBackground"
   layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
   showDraftLabel = false
   showEdit = false
-  editAppendPath = true
-  seriesOpened = false
+  editURL = false
+  editAppendPath = false
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
-  showReadingTime = false  # Disabled.
-  showTableOfContents = false
-  showRelatedContent = false  # Disabled.
-  relatedContentLimit = 6
-  showTaxonomies = false  # Disabled.
+  invertPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = false  # Disabled.
-  sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  sharingLinks = [ "whatsapp", "facebook", "linkedin", "twitter", "email"]
   showZenMode = true
 
 [list]
@@ -68,44 +75,44 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
-  showSummary = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
+  showSummary = true
+  showViews = true
+  showLikes = true
+  showTableOfContents = false
   showCards = true
   groupByYear = false
-  cardView = false
-  cardViewScreenWidth = true
+  cardView = true
+  cardViewScreenWidth = false
   constrainItemsWidth = false
 
 [sitemap]
   excludedKinds = []
 
 [taxonomy]
-  showTermCount = false
+  showTermCount = true
   showHero = true
   heroStyle = "thumbAndBackground"
   showBreadcrumbs = false
-  showViews = false #consistant
-  showLikes = false #consistant
-  showTableOfContents = true
+  showViews = true
+  showLikes = true
+  showTableOfContents = false
   cardView = true
 
 [term]
   showHero = true
-  heroStyle = "background"
+  heroStyle = "thumbAndBackground"
   showBreadcrumbs = false
-  showViews = false # consistant
-  showLikes = false #consistant
+  showViews = true
+  showLikes = true
   showTableOfContents = false
   groupByYear = false
   cardView = true
-  cardViewScreenWidth = true
+  cardViewScreenWidth = false
 
-# [firebase] # Commented out.
+# [firebase]
 
-# [fathomAnalytics] # Commented out.
+# [fathomAnalytics]
 
-# [buymeacoffee] # Commented out.
+# [buymeacoffee]
 
-# [verification] # Commented out.
+# [verification]

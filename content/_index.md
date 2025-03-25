@@ -1,105 +1,93 @@
 ---
 title: "Welcome to SVSP Belagavi"
-description: "SVSP Belagavi: Transforming lives of underprivileged women and children through education and skill development."
-hero.image: "/img/hero-image.jpg"  #  MAKE SURE THIS FILE EXISTS!
+description: "SVSP Belagavi: Empowering women and children through education, skill development, and support."
 layout: "hero"
+hero:
+  headline: |
+    Every child deserves a chance to shine.
+    Help us make it happen.
+  subheadline: |
+    Building a future filled with hope and possibility.
 ---
+<hr>
 
-<h2 style="text-align: center; margin-bottom: 2rem; font-weight: 600;">WELCOME TO SVSP</h2>  # Added font-weight
+## About SVSP
 
-<!-- About Us Section -->
+<p style="text-align: justify;">Swami Vivekanand Seva Pratishthan is a name that evokes a sense of wholehearted service to the society. It was established as a Trust in 1982 and registered under the Bombay Public Trust Act 1950 (Registration No. E556BGM on 04-06-1982). The name bears a significance, because it is the same of one of India’s greatest saints of the twentieth century, Swami Vivekanand. The mission to start this organization was to serve the orphaned, abandoned, destitute and the less privileged children of the society.</p>
 
-## About Us
+<img src="/img/swami-vivekanand-seva-pratishthan-about-us.jpg" alt="About SVSP" style="width:100%; margin-bottom: 2em;">
 
-<p style="text-align: justify;">Swami Vivekanand Seva Pratishthan (SVSP) is a non-profit organization dedicated to empowering women and children through education and skill development. We provide vocational training programs in various fields, helping individuals gain the skills they need to achieve financial independence. Our courses are designed to be accessible and affordable, and we strive to create a supportive learning environment for all our students.</p>
+#### Objectives of the Organization:
 
-<!-- Key Areas/Programs Section -->
-
-## Our Programs
-
-{{< columns >}}
-  {{< column >}}
-  <img src="/img/icons/tailoring.png" alt="Tailoring Icon" style="width: 64px; height: 64px; margin-bottom: 1rem; display: block; margin-left: auto; margin-right: auto;">  <!-- Centered Icon -->
-  <h3 style="text-align: center;">Tailoring</h3>  <!-- Centered Title -->
-  <p style="text-align: justify;">Our tailoring program provides comprehensive training in garment construction, pattern making, and design. Students learn to create a variety of clothing items, equipping them with the skills for employment or entrepreneurship in the fashion industry.</p>
-  {{< /column >}}
-
-  {{< column >}}
-  <img src="/img/icons/computer.png" alt="Computer Icon" style="width: 64px; height: 64px; margin-bottom: 1rem; display: block; margin-left: auto; margin-right: auto;"> <!-- Centered Icon -->
-  <h3 style="text-align: center;">Computer</h3>  <!-- Centered Title -->
-  <p style="text-align: justify;">We offer a comprehensive computer course that covers fundamental computer skills, including operating systems, word processing, spreadsheets, presentations, and internet usage. This training prepares students for various office and administrative roles.</p>
-  {{< /column >}}
-
-  {{< column >}}
-  <img src="/img/icons/beautician.png" alt="Beautician Icon" style="width: 64px; height: 64px; margin-bottom: 1rem; display: block; margin-left: auto; margin-right: auto;"> <!-- Centered Icon -->
-  <h3 style="text-align: center;">Beautician</h3>  <!-- Centered Title -->
-  <p style="text-align: justify;">Our beautician program offers hands-on training in skincare, haircare, makeup, and other beauty treatments. Students gain practical experience and develop the skills needed to work in salons or start their own businesses.</p>
-  {{< /column >}}
-{{< /columns >}}
-
-{{< columns >}}
-  {{< column >}}
-    <img src="/img/icons/spoken-english.png" alt="Spoken English Icon" style="width: 64px; height: 64px; margin-bottom: 1rem;  display: block; margin-left: auto; margin-right: auto;">
-    <h3 style="text-align: center;">Spoken English</h3>
-    <p style="text-align: justify;">Our Spoken English classes focus on improving conversational skills, pronunciation, vocabulary, and grammar.  We aim to build confidence in communication for everyday situations and professional settings.</p>
-  {{< /column >}}
-{{< /columns >}}
-
-<!-- Statistics Section -->
-
-## Our Impact
-
-{{< columns >}}
-  {{< column >}}
-  <h3 style="color: #e74c3c; text-align: center;">20+ Years</h3>  <!-- Added color and centering -->
-  <p style="text-align: center;">Of Experience</p>
-  {{< /column >}}
-
-  {{< column >}}
-  <h3 style="color: #e74c3c; text-align: center;">5 Batches</h3>  <!-- Added color and centering -->
-  <p style="text-align: center;">Every Year</p>
-  {{< /column >}}
-
-  {{< column >}}
-  <h3 style="color: #e74c3c; text-align: center;">1000+</h3>  <!-- Added color and centering -->
-  <p style="text-align: center;">Students Trained</p>
-  {{< /column >}}
-{{< /columns >}}
-
-<!-- Gallery Section -->
-
-## Gallery
-
-{{< gallery >}}
-  {{< figure src="/img/gallery/image1.jpg" title="SVSP Event" >}}
-  {{< figure src="/img/gallery/image2.jpg" title="Skill Development Workshop" >}}
-  {{< figure src="/img/gallery/image3.jpg" title="Graduation Ceremony" >}}
-  {{< figure src="/img/gallery/image4.jpg" title="Class In Session" >}}
-  {{< figure src="/img/gallery/image5.jpg" title="Community Outreach" >}}
-  <!-- Add more images as needed.  Make sure these images exist! -->
-{{< /gallery >}}
-
-<!-- Contact Us Section -->
-
-## Contact Us
-
-<p>
-    <strong>Address:</strong> Shri. Shivanand.B.Kalyanshetti, "Matruchaya" Near Nutan Bal Mandir, Ram Nagar, Belagavi-590016<br>
-    <strong>Phone:</strong> +91 9448465259<br>
-    <strong>Email:</strong> <a href="mailto:svspbelagavi@gmail.com">svspbelagavi@gmail.com</a>
-</p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4129.127379577741!2d74.52442577295585!3d15.849987622158675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f797c1545%3A0x8f59b465b97f655c!2sShivanand%20Kalyanshetti!5e0!3m2!1sen!2sin!4v1703828296442!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<!-- How Can You Help? Section -->
-
-## How Can You Help?
-
-<p style="text-align: center;">Your support can transform lives. Here are some ways you can contribute:</p>  <!-- Centered Text -->
-<ul style="list-style-type: none; padding: 0; text-align: center;"> <!-- Removed Bullets and Centered -->
-    <li style="margin-bottom: 0.5rem;"><a href="/donate" style="color: #3498db; text-decoration: none; font-weight: bold;">Donate</a></li>  <!-- Styled Links -->
-    <li style="margin-bottom: 0.5rem;"><a href="/volunteer" style="color: #3498db; text-decoration: none; font-weight: bold;">Volunteer</a></li>
-    <li><a href="#" style="color: #3498db; text-decoration: none; font-weight: bold;">Spread the Word</a></li>
+<ul>
+    <li>Providing good quality education for the welfare of orphaned children</li>
+    <li>Taking care of the nurture and safety of single parent children.</li>
+    <li>Providing free food, shelter, education, protection to children.</li>
+    <li>Providing medical facility, counseling service.</li>
+    <li>Rehabilitation.</li>
+    <li>Abandoned, lost and surrendered children can be adopted by the adoptive parents as per Central Government's CARA rules</li>
 </ul>
 
----
+## Projects
+{{< columns >}}
+  {{< column >}}
+  <img src="/img/gangamma-chikkumbimath-bal-kalyan-kendra.jpg" alt="Gangamma Chikkumbimath Bal Kalyan Kendra" style="width: 100%; margin-bottom: 1rem;">
+  <h3> Gangamma Chikkumbimath Bal Kalyan Kendra </h3>
+  <a href="/projects" class="theme_btn btn_2">View More</a>
+  {{< /column >}}
+
+  {{< column >}}
+  <img src="/img/svsp-adoption-centre-and-centre.jpg" alt="SVSP Adoption Centre" style="width: 100%; margin-bottom: 1rem;">
+  <h3> SVSP Adoption Centre and Centre for Care  </h3>
+  <a href="/projects" class="theme_btn btn_2">View More</a>
+  {{< /column >}}
+
+  {{< column >}}
+  <img src="/img/prarambh.jpg" alt="Prarambh" style="width: 100%; margin-bottom: 1rem;">
+  <h3> Prarambh </h3>
+  <a href="/projects" class="theme_btn btn_2">View More</a>
+  {{< /column >}}
+{{< /columns >}}
+
+## Numbers Speak
+
+{{< columns >}}
+    {{< column >}}
+        <h3 style="text-align: center;">Children Adopted</h3>
+        <p style="text-align: center;">127</p>
+    {{< /column >}}
+    {{< column >}}
+        <h3 style="text-align: center;">Inter Country Adoption</h3>
+        <p style="text-align: center;">12</p>
+    {{< /column >}}
+    {{< column >}}
+        <h3 style="text-align: center;">Wedding Arrangements </h3>
+        <p style="text-align: center;">8+</p>
+    {{< /column >}}
+{{< /columns >}}
+
+## Appreciation and Recognition
+<p>Hon'ble Governor of Karnataka Shri. Thavarchandji Gehlot visited the Ashram. <br><br>Our efforts were recognized by the Government of Karnataka, Department of Women and Child Welfare in 1988 & 2020 and were felicitated with Certificate of Appreciation For Child Welfare.</p>
+
+## Our Key Donors
+<ol>
+    <li>Shri Hanumantappa Galgali</li>
+    <li>Bank Note Paper India, Mysuru (Karnataka)</li>
+    <li>HNB Engineers, Pune</li>
+    <li>Dr. P.V. Havaldar</li>
+    <li>Smt. Shantadevi . Hiremath</li>
+    <li>Shri Radhakrishna Vithoba Shenvi</li>
+    <li>Shri Prakash Davda</li>
+    <li>Polyhydron Foundation</li>
+    <li>CREDAI-Belagavi</li>
+    <li>Shri Nitin Bhandari</li>
+    <li>Karnataka Co-operative Milk Federation-Belagavi</li>
+    <li>Smt. Shruti Deshpande</li>
+    <li>AKXA Tech Pvt. Ltd.</li>
+    <li>Shri Jaydeep Jasani</li>
+    <li>Shri Ishwarappa R. Chonnad</li>
+    <li>Smt. Asmita Pawar</li>
+</ol>
+
+## Appeal for donation
+<p style="text-align:center;"><a href="/appeal_for_donation">Donate Now</a></p>

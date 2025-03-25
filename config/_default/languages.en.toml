@@ -9,13 +9,14 @@ title = "Swami Vivekanad Seva Pratishthan"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "logo/svsp_logo.png"
-  # secondaryLogo = "logo/png/White_logo-no_background_cropped.png"
   description = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened for SEO
   copyright = "© Copyright { year }, All Rights Reserved | Swami Vivekanad Seva Pratishthan"
 
 [params.author]
   name = "Swami Vivekanad Seva Pratishthan"
+  email =  "vivekanand.chikkumbimath@gmail.com"
   image = "logo/svsp_logo.png"
+  imageQuality = 100
   headline = "Building a Future filled with Hopes and Possibilities"
   bio = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened and consistent
   links = [

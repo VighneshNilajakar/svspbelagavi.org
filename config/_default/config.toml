@@ -1,63 +1,54 @@
 theme = "blowfish"
 baseURL = "https://svspbelagavi.org/"
-defaultContentLanguage = "en"
 pluralizeListTitles = "false"
 enableRobotsTXT = true
 pagerSize = 10
-summaryLength = 30
+summaryLength = 10
 buildDrafts = false
 buildFuture = false
-# googleAnalytics = "G-PEDMYR1V0K" # Uncomment to enable Google Analytics.
+# googleAnalytics = "G-PEDMYR1V0K"
 
 [imaging]
   anchor = 'Center'
 
-# [taxonomies]  # Commenting out taxonomies for now. We can revisit if needed.
-#   committee = "committee"
-#   project = "projects"
+[taxonomies]
+   committee = "committee"
+   project = "projects"
 
 [sitemap]
-  changefreq = 'weekly'
+  changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# [related] # Commenting out the related content section. We'll focus on structure first.
-
-# --- Blowfish Specific Configurations ---
-
-[params]
-  # General Parameters (adjust as needed)
-  displayName = "SVSP Belagavi"  # Or the full name if preferred.
-  #favicon = "/favicon.ico"  # Uncomment and add your favicon.
-
-  # Homepage Layout
-  homepage.layout = "hero"  # Start with the 'hero' layout. We can adjust.
-  #homepage.showRecent = true # Shows recent posts - we don't need this for now.
-  homepage.showRecentCount = 5  # Number of recent posts to show (if enabled).
-
-  # Header
-  header.layout = "basic"    # or "fixed" - experiment to see which you prefer.
-  header.showTitle = true  # Display the site title in the header.
-  header.brand = "SVSP"    # Short brand name for the header (optional).
-
-  # Footer - Configure the footer to match the original site.
-  footer.showCopyright = true
-  footer.showPoweredBy = false  # You can choose to show or hide the "Powered by Hugo & Blowfish" text.
-  footer.quickLinks = [
-    { url = "/", name = "Home" },
-    { url = "/about/", name = "About" },
-    { url = "/courses/", name = "Courses" },
-    { url = "/events/", name = "Events" },
-    { url = "/gallery/", name = "Gallery" },
-    { url = "/donate/", name = "Donate" },
-    { url = "/contact/", name = "Contact" },
-  ]
-  footer.socialLinks = [
-      # Add your social media links here (if any).  Example:
-      #{ icon = "fab fa-twitter", url = "https://twitter.com/yourtwitter", title = "Twitter" },
-  ]
-
-  # Other Blowfish options can be added here as we refine the design.
+# [related]
+#  threshold = 0
+#  toLower = false
+#
+#    [[related.indices]]
+#        name = "tags"
+#        weight = 100
+#
+#    [[related.indices]]
+#        name = "categories"
+#        weight = 100
+#
+#    [[related.indices]]
+#        name = "series"
+#        weight = 50
+#
+#    [[related.indices]]
+#        name = "authors"
+#        weight = 20
+#
+#    [[related.indices]]
+#        name = "date"
+#        weight = 10
+#
+#    [[related.indices]]
+#      applyFilter = false
+#      name = 'fragmentrefs'
+#      type = 'fragments'
+#      weight = 10

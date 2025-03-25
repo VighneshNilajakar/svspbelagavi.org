@@ -1,13 +1,5 @@
 ---
 title: "Events"
-description: "This page showcases all the Events held earlier and Events that will be held in the Future."
-
-cascade:
-  showDate: false
-  showAuthor: false
-  invertPagination: true
+description: "Stay up-to-date on upcoming events, workshops, and activities organized by Swami Vivekanand Seva Pratishthan."
 ---
-{{< lead >}}
-🎉 Discover exciting workshops, hackathons, and seminars fostering innovation and collaboration. Stay tuned for updates on upcoming events where you can expand your skills and connect with like-minded peers. Join us on a journey of exploration and growth! 🚀✨
-{{< /lead >}}
-<hr>
+<p style="text-align: justify; margin-bottom: 2rem;">Swami Vivekanand Seva Pratishthan regularly organizes events and workshops to engage the community and support our mission.  Check back here for information on upcoming events and how to participate.</p>
